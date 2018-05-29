@@ -28,4 +28,206 @@
 @blue: #0294ca;
 //font-color
 @brown-black: #363636;
-@sky: #363636;
+@sky: #0093ca;
+
+@media (min-width: 768px){
+.container {
+    width: 100%;
+}
+}
+
+
+section {
+  height: 100%;
+  width: 100% !important; 
+  display:inline-block;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+        text-align: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        width: 50%;    
+        padding: 0px 10px;
+        box-sizing: border-box;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+    float: left;
+}
+
+.right{
+    text-align: right;
+    float: right;
+}
+
+p{
+    color: @brown-black;
+    font-size: 32px;
+    font-family: "Avenir";
+    line-height: 95%;
+}
+
+.dark-blue{
+    color: @navy;
+}
+
+.white{
+    color: white;
+}
+
+.navy{
+    color: @l-navy;
+}
+
+.blue{
+    color: @blue;
+}
+
+.sky{
+    color: @sky;
+}
+
+.btn-navy{
+    background-color: @l-navy;
+    font-family: 'Avenir';
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    padding: 10px 30px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.pad-left{
+    padding-left: 11%;
+}
+.pad-r{
+    padding-right: 1%;
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 95%;
+    padding: 10px 0px;
+        
+}
+
+h2{
+    line-height: 90%;
+    color: @brown-black;
+    font-size: 48px;
+    font-family: "Avenir";
+    font-weight: 400;
+    .dark-blue{
+        color: @navy;
+        font-weight: 1000;
+        font-size: 56px;
+    }
+}
+
+.heavy{
+    font-weight: 900;
+    font-size: 60px;
+}
+div.main-page-wrapper{
+      //background: url(../img/home/firstCover.jpg) top no-repeat;  
+      //background-size:  100%;
+}
+
+html{
+   background: url(../img/home/firstCover.jpg) top no-repeat;  
+   background-size:  100%; 
+}
+
+#home-banner{
+    background: url(../img/home/firstCover.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    
+    .columna{
+        width: 60%;  
+    }
+    .bluebox{
+        position: relative;
+        z-index: 1;
+        background-color: @navy;
+        opacity: 0.8;
+        padding: 5px 30px;
+    }
+}
+
+#who{
+    padding-top: 80px;
+    .flex{
+        border-top: 12px solid @navy;
+    }
+    img{
+        position: relative;
+        bottom: 160px;
+        right: 90px;
+    }
+    span{
+        font-weight: 900;
+    }
+}
+
+#valores{
+    .dark-blue-back{
+        padding: 3px 0px;
+        background-color: @navy;
+    }
+    .flex{
+        padding-top: 50px;
+    }
+    .col{
+        padding: 30px 10px;
+    }
+    h2{
+        line-height: 110%;
+    }
+    .right{
+        border-right: 2px solid @navy;
+    }
+    p{
+        padding: 0px 20px;
+        margin: 3px 0px;
+    }
+}
+
+#proposito{
+    p{
+        border-left: 8px solid @l-navy;
+        padding: 8px 20px 2px 10px;
+    }
+}
+
+

@@ -4,7 +4,7 @@
 ?>
 
 <section id="home-banner">
-    <div class="left">
+    <div class="columna">
         <div class="bluebox center">
             <h1>PROTEGE TU CASA,<br>
             PROTEGE TU NEGOCIO</h1>
@@ -15,7 +15,7 @@
                 hechas a medida para tu hogar, negocio y oficina
             </p>
         </div>
-        <div class="overlay">
+        <div class="center">
             <a href="#" class="btn-navy">ME INTERESA</a>
         </div>
     </div>
@@ -24,14 +24,14 @@
 <section id="who">
     <div class="flex">
         <div class="col">
-            <img src="../img/home/CajaFuerteYdemas.png" alt="Caja fuerte e inmuebles de alta seguridad" id="cajas-fuertes">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/CajaFuerteYdemas.png" alt="Caja fuerte e inmuebles de alta seguridad" id="cajas-fuertes">
         </div>
         <div class="col">
             <h2>¿Quiénes <br><span class="pad-left dark-blue">Somos?</span></h2>
             <p>
                 Somos una empresa mexicana con más de 25 años de 
-                <span class="dark-blue">experiencia </span>
-                en la fabricación de
+                <span class="dark-blue">experiencia en </span>
+                 la fabricación de
                 <span class="dark-blue">soluciones de seguridad.</span>
             </p>
             <p>
@@ -56,8 +56,9 @@
 
 <section id="valores">
     <div class="center dark-blue-back">
-        <h2>
-            <span class="heavy white"></span>
+        <h2 class="white">
+           Nuestros <br>
+           <span class="heavy white pad-r">Valores</span>
         </h2>
     </div>
     <div class="flex">
@@ -92,7 +93,7 @@
             </p>
         </div>
         <div class="col">
-            <img src="../img/home/miss-flowers.jpg" alt="mujer alegre">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/miss-flowers.jpg" alt="mujer alegre">
         </div>
     </div>
 </section>
@@ -105,43 +106,43 @@
     </div>
     <div class="flex">
         <div class="col center">
-            <div class="svg"><img src="../img/icons/1.svg" alt="Equipo de computo"></div>
+            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/1.svg" alt="Equipo de computo"></div>
             <p>
                 Mayor tecnología en el sistema de  combinaciones, con la certificación “UL de U.S.A.” (Underwriters Laboratorios), más sofisticado y difícil de descifrar. 
             </p>
         </div>
         <div class="col center">
-            <div class="svg"><img src="../img/icons/2.svg" alt="Mecanismos"></div>
+            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/2.svg" alt="Mecanismos"></div>
             <p>
                 Mecanismos de combinación certificados, combinaciones mecánicas y digitales fáciles de programar.
             </p>
         </div>
         <div class="col center">
-            <div class="svg"><img src="../img/icons/3.svg" alt="Herramientas"></div>
+            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/3.svg" alt="Herramientas"></div>
             <p>
                 Nuestros productos son fáciles de instalar y ofrecemos servicio de instalación en algunas ciudades del territorio mexicano.
             </p>
         </div>
     </div>
-    <div class="center"><img src="../img/home/line-h.png" alt="---------------------------------------"></div>
+    <div class="center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/line-h.png" alt="---------------------------------------"></div>
     
     
     <div class="flex">
         <div class="col center">
-            <div class="svg"><img src="../img/icons/4.svg" alt="Viga"></div>
+            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/4.svg" alt="Viga"></div>
             <p>
                 Mayor durabilidad y resistencia en los materiales. 
                 Los productos son fabricados con  placas de acero tratado de alto calibre.
             </p>
         </div>
         <div class="col center">
-            <div class="svg"><img src="../img/icons/5.svg" alt="Regla"></div>
+            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/5.svg" alt="Regla"></div>
             <p>
                 Fabricamos nuestros productos con  medidas personalizadas de acuerdo a las necesidades del cliente.
             </p>
         </div>
         <div class="col center">
-            <div class="svg"><img src="../img/icons/6.svg" alt="Envíos"></div>
+            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/6.svg" alt="Envíos"></div>
             <p>
                 Ventas y envíos a nivel nacional, con asesoría para la  instalación del producto.
             </p>
@@ -163,9 +164,9 @@
     </p>
     
     <div class="flex">
-        <div class="col"><img src="../img/home/cajaFuerte.png" alt="caja fuerte"></div>
-        <div class="col"><img src="../img/home/PuertaBlindada.png" alt="Esclusa blindada"></div>
-        <div class="col"><img src="../img/home/VidrioBlindado.png" alt="Ventana blindada"></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/cajaFuerte.png" alt="caja fuerte"></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/PuertaBlindada.png" alt="Esclusa blindada"></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/VidrioBlindado.png" alt="Ventana blindada"></div>
     </div>
     <div class="flex">
         <p>Cajas Fuertes</p>
@@ -178,6 +179,54 @@
         <p>Ventanas</p>
         <span class="dark-blue heavy">Blindadas</span>
     </div>
+</section>
+
+<section id="contacto">
+    <div class="flex">
+        <div class="col">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto.jpg" alt="Fabrica industrial">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/" alt="STEELSHARP, cajas fuertes y equipos blindados">
+        </div>
+        <div class="col">
+            <h2>Contáctanos</h2>
+            <div class="gray-block">
+                
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="col icon">
+            
+        </div>
+        <div class="col">
+            <p>De Lunes a  Viernes<br> 
+            de 10:00 a 19:00 hrs <br>
+            Sábado de 10:00 a 14:00 hrs
+            </p>
+        </div>
+        <div class="col icon">
+            
+        </div>
+        <div class="col">
+            <p>(045) 477 647 3642</p>
+        </div>
+        <div class="col icon">
+            
+        </div>
+        <div class="col">
+            contacto@steelsharp.com
+        </div>
+        
+    </div>
+    <div class="flex">
+        <div id="face" class="col"></div>
+        <div class="col"></div>
+    </div>
+    
+    <div class="left">
+        <p class="dark-blue">Diseño por EsBrillante Estudio Digital 2018</p>
+    </div>
+    
 </section>
 
 <?php 

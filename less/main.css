@@ -17,3 +17,165 @@
   font-weight: bold;
   font-style: normal;
 }
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+section {
+  height: 100%;
+  width: 100% !important;
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex.center-h {
+  justify-content: center;
+  text-align: center;
+}
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+.flex .col {
+  width: 50%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.flex .col.align-self-center {
+  align-self: center;
+}
+.flex .col.align-self-end {
+  align-self: flex-end;
+}
+.center {
+  align-items: center;
+  text-align: center;
+}
+.left {
+  text-align: left;
+  float: left;
+}
+.right {
+  text-align: right;
+  float: right;
+}
+p {
+  color: #363636;
+  font-size: 32px;
+  font-family: "Avenir";
+  line-height: 95%;
+}
+.dark-blue {
+  color: #002b53;
+}
+.white {
+  color: white;
+}
+.navy {
+  color: #09608c;
+}
+.blue {
+  color: #0294ca;
+}
+.sky {
+  color: #0093ca;
+}
+.btn-navy {
+  background-color: #09608c;
+  font-family: 'Avenir';
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  padding: 10px 30px;
+  position: relative;
+  z-index: 2;
+}
+.pad-left {
+  padding-left: 11%;
+}
+.pad-r {
+  padding-right: 1%;
+}
+h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 95%;
+  padding: 10px 0px;
+}
+h2 {
+  line-height: 90%;
+  color: #363636;
+  font-size: 48px;
+  font-family: "Avenir";
+  font-weight: 400;
+}
+h2 .dark-blue {
+  color: #002b53;
+  font-weight: 1000;
+  font-size: 56px;
+}
+.heavy {
+  font-weight: 900;
+  font-size: 60px;
+}
+html {
+  background: url(../img/home/firstCover.jpg) top no-repeat;
+  background-size: 100%;
+}
+#home-banner {
+  background: url(../img/home/firstCover.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+#home-banner .columna {
+  width: 60%;
+}
+#home-banner .bluebox {
+  position: relative;
+  z-index: 1;
+  background-color: #002b53;
+  opacity: 0.8;
+  padding: 5px 30px;
+}
+#who {
+  padding-top: 80px;
+}
+#who .flex {
+  border-top: 12px solid #002b53;
+}
+#who img {
+  position: relative;
+  bottom: 160px;
+  right: 90px;
+}
+#who span {
+  font-weight: 900;
+}
+#valores .dark-blue-back {
+  padding: 3px 0px;
+  background-color: #002b53;
+}
+#valores .flex {
+  padding-top: 50px;
+}
+#valores .col {
+  padding: 30px 10px;
+}
+#valores h2 {
+  line-height: 110%;
+}
+#valores .right {
+  border-right: 2px solid #002b53;
+}
+#valores p {
+  padding: 0px 20px;
+  margin: 3px 0px;
+}
+#proposito p {
+  border-left: 8px solid #09608c;
+  padding: 8px 20px 2px 10px;
+}
