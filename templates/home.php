@@ -92,8 +92,8 @@
                 Brindarte tranquilidad, con soluciones de seguridad que resguarden tu patrimonio.
             </p>
         </div>
-        <div class="col">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/miss-flowers.jpg" alt="mujer alegre">
+        <div id="miss-happy" class="col">
+            
         </div>
     </div>
 </section>
@@ -104,99 +104,118 @@
             <span class="heavy">Patrimonio</span>
         </h2>
     </div>
-    <div class="flex">
-        <div class="col center">
-            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/1.svg" alt="Equipo de computo"></div>
+    <div class="flex nowrap">
+        <div class="l-col col center">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/1.svg" alt="Equipo de computo">
             <p>
                 Mayor tecnología en el sistema de  combinaciones, con la certificación “UL de U.S.A.” (Underwriters Laboratorios), más sofisticado y difícil de descifrar. 
             </p>
         </div>
         <div class="col center">
-            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/2.svg" alt="Mecanismos"></div>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/3.svg" alt="Mecanismos">
             <p>
                 Mecanismos de combinación certificados, combinaciones mecánicas y digitales fáciles de programar.
             </p>
         </div>
-        <div class="col center">
-            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/3.svg" alt="Herramientas"></div>
+        <div class="r-col col center">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/2.svg" alt="Herramientas">
             <p>
                 Nuestros productos son fáciles de instalar y ofrecemos servicio de instalación en algunas ciudades del territorio mexicano.
             </p>
         </div>
     </div>
-    <div class="center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/line-h.png" alt="---------------------------------------"></div>
+    <div class="center"><img id="line" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/line-h.png" alt="---------------------------------------"></div>
     
     
-    <div class="flex">
-        <div class="col center">
-            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/4.svg" alt="Viga"></div>
+    <div class="flex nowrap">
+        <div class="l-col col center ">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/4.svg" alt="Viga">
             <p>
                 Mayor durabilidad y resistencia en los materiales. 
                 Los productos son fabricados con  placas de acero tratado de alto calibre.
             </p>
         </div>
         <div class="col center">
-            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/5.svg" alt="Regla"></div>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/5.svg" alt="Regla">
             <p>
                 Fabricamos nuestros productos con  medidas personalizadas de acuerdo a las necesidades del cliente.
             </p>
         </div>
-        <div class="col center">
-            <div class="svg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/6.svg" alt="Envíos"></div>
+        <div class="r-col col center ">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/6.svg" alt="Envíos">
             <p>
                 Ventas y envíos a nivel nacional, con asesoría para la  instalación del producto.
             </p>
         </div>
     </div>
+
 </section>
 
 <section id="soluciones">
     <div class="center">
         <h2>
-            <p>SOLUCIONES DE SEGURIDAD
-            <span class="heavy dark-blue">QUE TE OFRECEMOS</span></p>
+            SOLUCIONES DE SEGURIDAD<br>
+            <span class="heavy dark-blue">QUE TE OFRECEMOS</span>
         </h2>
     </div>
-    <p>
+    <p class="border-right">
         Para casas, oficinas, negocios y empresas, 
         <b>STEELSHARP </b>
          te ofrece soluciones de seguridad personalizada con la mayor tecnología y los mejores materiales en cajas fuertes, puertas y ventanas blindadas.
     </p>
     
-    <div class="flex">
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/cajaFuerte.png" alt="caja fuerte"></div>
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/PuertaBlindada.png" alt="Esclusa blindada"></div>
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/VidrioBlindado.png" alt="Ventana blindada"></div>
+    <div class="flex nowrap dark-blue-back">
+        <div class="l-col col center">
+            <div>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/cajaFuerte.png" alt="caja fuerte"></div>
+            </div>
+        <div class="col center">
+            <div>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/PuertaBlindada.png" alt="Esclusa blindada">
+            </div>
+        </div>
+        <div class="r-col col center">
+            <div>
+             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/VidrioBlindado.png" alt="Ventana blindada">
+            </div>
+        </div>
     </div>
-    <div class="flex">
-        <p>Cajas Fuertes</p>
-    </div>
-    <div class="flex">
-        <p>Ventanas</p>
-        <span class="dark-blue heavy">Blindadas</span>
-    </div>
-    <div class="flex">
-        <p>Ventanas</p>
-        <span class="dark-blue heavy">Blindadas</span>
+    <div class="flex nowrap flex-small">
+        <div class="l-col col center col-small ">
+            <p>Cajas Fuertes</p>
+        </div>
+        <div class="col center col-small ">
+            <p>Puertas y Esclusas<br>
+            <span class="dark-blue heavy">Blindadas</span>
+            </p>
+        </div>
+        <div class="r-col col center col-small ">
+            <p>Ventanas<br>
+            <span class="dark-blue heavy">Blindadas</span>
+            </p>
+        </div>
     </div>
 </section>
 
 <section id="contacto">
     <div class="flex">
-        <div class="col">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto.jpg" alt="Fabrica industrial">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/" alt="STEELSHARP, cajas fuertes y equipos blindados">
+        <div id="c-small" class="col">
+            <img id="industria-tuberias" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto.jpg" alt="Fabrica industrial">
+            <div class="center logo">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="STEELSHARP, cajas fuertes y equipos blindados">
+            </div>
+            
         </div>
-        <div class="col">
-            <h2>Contáctanos</h2>
+        <div id="c-big" class="col" >
+            <h2 class="heavy">Contáctanos</h2>
             <div class="gray-block">
-                
+                <p>form here</p>
             </div>
         </div>
     </div>
-    <div class="flex">
+    <div id="contact-flex" class="flex nowrap">
         <div class="col icon">
-            
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/7.svg" alt="horario">
         </div>
         <div class="col">
             <p>De Lunes a  Viernes<br> 
@@ -204,26 +223,33 @@
             Sábado de 10:00 a 14:00 hrs
             </p>
         </div>
-        <div class="col icon">
-            
+        <div id="wa" class="col icon">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/8.svg" alt="WhatsApp número telefónico">
         </div>
-        <div class="col">
+        <div class="col ">
             <p>(045) 477 647 3642</p>
         </div>
         <div class="col icon">
-            
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/9.svg" alt="correo electrónico">
         </div>
         <div class="col">
-            contacto@steelsharp.com
+            <p>contacto@steelsharp.com</p>
         </div>
         
     </div>
     <div class="flex">
-        <div id="face" class="col"></div>
+        <div id="face" class="col flex">
+           <div class="col">
+               <p class="white heavy">Síguenos en</p>
+           </div>
+           <div class="col">
+               <a href="https://www.facebook.com/Steelsharp-Seguridad-368465093644569/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/10.svg" alt="Facebook"></a>
+           </div>
+        </div>
         <div class="col"></div>
     </div>
     
-    <div class="left">
+    <div class="left pad-left">
         <p class="dark-blue">Diseño por EsBrillante Estudio Digital 2018</p>
     </div>
     
