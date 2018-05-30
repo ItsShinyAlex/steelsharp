@@ -4,21 +4,7 @@
 ?>
 
 <section id="home-banner">
-    <div class="columna">
-        <div class="bluebox center">
-            <h1>PROTEGE TU CASA,<br>
-            PROTEGE TU NEGOCIO</h1>
-            <p class="white">
-                 
-                <b>STEELSHARP,</b> te ofrece
-                <b>Puertas y Ventanas Blindadas,</b>
-                hechas a medida para tu hogar, negocio y oficina
-            </p>
-        </div>
-        <div class="center">
-            <a href="#" class="btn-navy">ME INTERESA</a>
-        </div>
-    </div>
+        <?php putRevSlider("home", "home.php"); ?>
 </section>
 
 <section id="who">
@@ -209,7 +195,8 @@
         <div id="c-big" class="col" >
             <h2 class="heavy">Contáctanos</h2>
             <div class="gray-block">
-                <p>form here</p>
+                 <?php echo do_shortcode("[caldera_form id='CF5b0f1c3c6fe80']"); ?>
+                
             </div>
         </div>
     </div>
@@ -233,7 +220,8 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/9.svg" alt="correo electrónico">
         </div>
         <div class="col">
-            <p>contacto@steelsharp.com</p>
+            <a href="mailto:contacto@steelsharp.com?Subject=Informes%20-Contacto" target="_top">    <p>contacto@steelsharp.com</p>
+            </a>
         </div>
         
     </div>

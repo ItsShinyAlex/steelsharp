@@ -99,7 +99,7 @@ p {
   background-color: #09608c;
   font-family: 'Avenir';
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   border: 0;
   padding: 10px 30px;
@@ -146,13 +146,12 @@ html {
   background: url(../img/home/firstCover.jpg) top no-repeat;
   background-size: 100%;
 }
-#home-banner {
-  background: url(../img/home/firstCover.jpg) center no-repeat;
-  background-size: cover;
-  min-height: 500px;
+#home-banner .center {
+  align-items: center;
+  text-align: center;
 }
 #home-banner .columna {
-  width: 60%;
+  width: 120%;
 }
 #home-banner .bluebox {
   position: relative;
@@ -160,6 +159,41 @@ html {
   background-color: #002b53;
   opacity: 0.8;
   padding: 5px 30px;
+  padding-bottom: 30px;
+}
+#home-banner .bluebox p {
+  padding-top: 0px;
+}
+#home-banner #s1 {
+  padding: 7px 50px;
+  padding-bottom: 40px;
+  text-align: justify !important;
+  text-align-last: center !important;
+}
+#home-banner #s1 h2 {
+  color: white;
+  font-size: 45px;
+}
+#home-banner #s1 h2 span {
+  font-size: 48px;
+}
+#home-banner #col-smaller {
+  width: 80%;
+}
+#home-banner #s2 {
+  padding: 40px 50px;
+  padding-top: 60px;
+  text-align: justify !important;
+}
+#home-banner #s2 p {
+  font-weight: 100;
+  font-size: 28px;
+}
+#home-banner #s2 h2 {
+  text-align-last: center !important;
+  line-height: 115%;
+  color: white;
+  font-size: 26px;
 }
 #who {
   padding-top: 80px;
@@ -274,8 +308,28 @@ html {
   padding-left: 160px;
 }
 #contacto .gray-block {
-  padding: 30px 400px 30px 170px;
+  padding: 50px 160px 30px 170px;
   min-height: 81%;
+  font-style: italic;
+}
+#contacto .gray-block label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #002b53;
+  font-style: normal;
+  padding-bottom: 15px;
+  padding-left: 35px;
+}
+#contacto .gray-block .fld_1585235_1 {
+  margin-left: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+}
+#contacto .gray-block input.form-control {
+  height: 55px;
 }
 #contacto #c-small {
   width: 28%;
@@ -351,4 +405,18 @@ html {
 }
 #contacto .flex {
   margin-top: 60px;
+}
+@media screen and (max-width: 1220px) {
+  #patrimonio {
+    background: url(../img/home/addon-u.png) center 1100px no-repeat;
+  }
+  #soluciones {
+    background: url(../img/home/line-blue-addonToP-border.png) 143% 25% no-repeat;
+  }
+  #contacto h2 {
+    padding-left: 220px;
+  }
+  #contacto .gray-block {
+    padding: 50px 80px 30px 227px;
+  }
 }

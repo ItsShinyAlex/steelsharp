@@ -135,7 +135,7 @@ p{
     background-color: @l-navy;
     font-family: 'Avenir';
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     border: 0;
     padding: 10px 30px;
@@ -196,20 +196,67 @@ html{
 }
 
 #home-banner{
-    background: url(../img/home/firstCover.jpg) center no-repeat;
-    background-size: cover;
-    min-height: 500px;
+    //background: url(../img/home/firstCover.jpg) center no-repeat;
+    //background-size: cover;
+    //min-height: 500px;
+    .center{
+        align-items: center;
+        text-align: center;
+    }
     
-    .columna{
-        width: 60%;  
+
+            .columna{
+                width: 120%;  
+
+            }
+        .bluebox{
+            position: relative;
+            z-index: 1;
+            background-color: @navy;
+            opacity: 0.8;
+            padding: 5px 30px;
+            padding-bottom: 30px;
+            p{
+                padding-top: 0px;
+            }
+            
+        }
+    #s0{
+       
     }
-    .bluebox{
-        position: relative;
-        z-index: 1;
-        background-color: @navy;
-        opacity: 0.8;
-        padding: 5px 30px;
+    #s1{
+        padding: 7px 50px;
+        padding-bottom: 40px;
+        text-align: justify !important;
+        text-align-last: center !important;
+        h2{
+            color: white;
+            font-size: 45px;
+            span{
+                font-size: 48px;
+            }
+        }
     }
+    #col-smaller{
+        width: 80%;
+    }
+    #s2{
+        padding: 40px 50px;
+        padding-top: 60px;
+        text-align: justify !important;
+        p{
+            font-weight: 100;
+            font-size: 28px;
+        }
+
+        h2{
+            text-align-last: center !important;
+            line-height: 115%;
+            color: white;
+            font-size: 26px;
+        }
+    }
+
 }
 
 #who{
@@ -347,13 +394,44 @@ html{
 }
 
 #contacto{
+    
+    
     //min-height: 1000px;
     h2{
         padding-left: 160px;
     }
     .gray-block{
-        padding: 30px 400px 30px 170px;
+        padding: 50px 160px 30px 170px;
         min-height: 81%;
+        font-style: italic;
+        
+        label{
+            font-size: 17px;
+            font-weight: 600;
+            color: @navy;
+            font-style: normal;
+            padding-bottom: 15px;
+            padding-left: 35px;
+        }
+        
+        
+        .fld_1585235_1{
+
+            
+        margin-left: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        }
+        
+        input.form-control{
+            height: 55px;
+            
+        }
+        
+        
         
     }
     #c-small{
@@ -453,5 +531,5 @@ html{
 }
 
 
-
+@import "responsive";
 
