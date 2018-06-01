@@ -17,6 +17,23 @@
   font-weight: bold;
   font-style: normal;
 }
+b {
+  font-weight: 600;
+}
+.container {
+  padding: 0px;
+  margin: 0px;
+  max-width: 1600px;
+}
+img {
+  max-width: 500%;
+  height: auto;
+  vertical-align: middle;
+}
+p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 .gray-block {
   background-color: #ebebeb;
 }
@@ -30,9 +47,9 @@
   }
 }
 section {
-  height: 100%;
+  height: 100% !important;
   width: 100% !important;
-  display: inline-block;
+  display: inline-block !important;
 }
 .flex {
   display: flex;
@@ -165,24 +182,24 @@ html {
   padding-top: 0px;
 }
 #home-banner #s1 {
-  padding: 7px 50px;
+  padding: 30px 50px 7px 50px;
   padding-bottom: 40px;
   text-align: justify !important;
   text-align-last: center !important;
 }
 #home-banner #s1 h2 {
   color: white;
-  font-size: 45px;
+  font-size: 42px;
 }
 #home-banner #s1 h2 span {
-  font-size: 48px;
+  font-size: 44px;
 }
 #home-banner #col-smaller {
   width: 80%;
 }
 #home-banner #s2 {
   padding: 40px 50px;
-  padding-top: 60px;
+  padding-top: 66px;
   text-align: justify !important;
 }
 #home-banner #s2 p {
@@ -196,7 +213,7 @@ html {
   font-size: 26px;
 }
 #who {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 #who .flex {
   border-top: 12px solid #002b53;
@@ -205,6 +222,12 @@ html {
   position: relative;
   bottom: 160px;
   right: 90px;
+}
+#who h2 {
+  padding-top: 80px;
+}
+#who p {
+  padding-top: 40px;
 }
 #who span {
   font-weight: 900;
@@ -230,6 +253,10 @@ html {
 }
 #proposito .col {
   padding-bottom: 200px;
+  padding-top: 40px;
+}
+#proposito .col h2 {
+  padding-bottom: 30px;
 }
 #proposito p {
   border-left: 8px solid #09608c;
@@ -268,7 +295,7 @@ html {
 }
 #soluciones {
   padding-bottom: 250px;
-  background: url(../img/home/line-blue-addonToP-border.png) 134% 25% no-repeat;
+  background: url(../img/home/line-blue-addonToP-border.png) 134% 23% no-repeat;
   left: 500px;
 }
 #soluciones .border-right {
@@ -304,6 +331,9 @@ html {
   line-height: 100%;
   font-size: 34px;
 }
+#contacto {
+  padding-bottom: 70px;
+}
 #contacto h2 {
   padding-left: 160px;
 }
@@ -335,12 +365,14 @@ html {
   width: 28%;
 }
 #contacto #c-big {
+  padding-top: 70px;
   padding-left: 0px;
   width: 72%;
 }
 #contacto #industria-tuberias {
   position: relative;
-  right: 38%;
+  right: 36%;
+  bottom: 15%;
 }
 #contacto .logo img {
   margin-top: 5%;
@@ -402,9 +434,17 @@ html {
 }
 #contacto .left p.dark-blue {
   font-size: 23px;
+  padding-top: 20px;
 }
 #contacto .flex {
   margin-top: 60px;
+}
+.sticky-header {
+  background-color: transparent;
+}
+.menu-navbar-container {
+  background-color: whitesmoke;
+  opacity: 0.8;
 }
 @media screen and (max-width: 1220px) {
   #patrimonio {
