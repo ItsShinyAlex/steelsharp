@@ -812,6 +812,7 @@ table.variations td {
     width: 90%;
   }
   #shiny-home #contacto #contact-flex {
+    margin-top: 0px;
     padding: 30px 20px 0px 50px;
     flex-wrap: wrap;
   }
