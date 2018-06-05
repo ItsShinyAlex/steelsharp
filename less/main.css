@@ -17,6 +17,12 @@
   font-weight: bold;
   font-style: normal;
 }
+.home .container {
+  width: 100%;
+}
+.main-page-wrapper div.container {
+  width: 100%;
+}
 .price .amount {
   display: none;
 }
