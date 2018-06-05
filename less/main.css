@@ -543,7 +543,8 @@ table.variations td {
   border: 0;
   padding: 8px 40px;
 }
-#shiny-home .woodmart-hover-standard .btn-add {
+#shiny-home .woodmart-hover-standard .btn-add,
+#shiny-home .search-by-category .input-dropdown-inner > a {
   display: none;
 }
 #shiny-home .product-template-default ul li {
