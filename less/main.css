@@ -89,8 +89,8 @@ table.variations td {
 }
 #shiny-home {
   /* ==========================================================================
-  Austes de la tienda
-   ========================================================================== */
+          Austes de la tienda
+       ========================================================================== */
 }
 #shiny-home .mov {
   display: none;
@@ -530,6 +530,14 @@ table.variations td {
   font-style: normal;
   border: 0;
   padding: 8px 40px;
+}
+#shiny-home .product-template-default ul li {
+  font-size: 16px;
+  color: #000;
+}
+#shiny-home .product-template-default p {
+  font-size: 16px;
+  color: #000;
 }
 #shiny-home .tabs-layout-tabs .tabs {
   background: #ebebeb;
