@@ -698,6 +698,26 @@ table.variations {
             font-size: @size-texto;
             color: #000;
         }
+        
+        .btn-enviar{
+            background: none;
+            color: @mamey;
+            font-family: 'Notera';
+            font-size: 60px;
+            float: right;   
+            text-transform: capitalize;
+            border-bottom: 2px solid @mamey;
+            line-height: 0.9;
+            padding: 0;
+            margin: 0 0 40px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background: none !important;
+                color: @verdef;
+                box-shadow: none !important;
+                border-bottom: 2px solid @verdef;
+            }
+        }
     }
     
     .tabs-layout-tabs .tabs {
