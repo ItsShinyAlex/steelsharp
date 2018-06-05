@@ -408,6 +408,12 @@ table.variations td {
   line-height: 100%;
   font-size: 34px;
 }
+#shiny-home #soluciones img {
+  transition: all 0.3s ease-in-out !important;
+}
+#shiny-home #soluciones img:hover {
+  transform: scale(1.1) !important;
+}
 #shiny-home #contacto {
   padding-bottom: 70px;
 }
@@ -539,8 +545,27 @@ table.variations td {
   font-size: 16px;
   color: #000;
 }
+#shiny-home .product-template-default .btn-enviar {
+  background: none;
+  color: #0093ca;
+  font-family: 'Notera';
+  font-size: 60px;
+  float: right;
+  text-transform: capitalize;
+  border-bottom: 2px solid #0093ca;
+  line-height: 0.9;
+  padding: 0;
+  margin: 0 0 40px;
+  transition: all 0.3s ease-in-out;
+}
+#shiny-home .product-template-default .btn-enviar:hover {
+  background: none !important;
+  color: #0294ca;
+  box-shadow: none !important;
+  border-bottom: 2px solid #0294ca;
+}
 #shiny-home .tabs-layout-tabs .tabs {
-  background: #ebebeb;
+  background: #0294ca;
 }
 @media screen and (max-width: 1222px) {
   #shiny-home #patrimonio {
