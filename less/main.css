@@ -541,6 +541,9 @@ table.variations td {
   }
 }
 @media screen and (max-width: 650px) {
+  #shiny-home .heavy {
+    font-size: 45px;
+  }
   #shiny-home h2 span.white {
     font-size: 45px;
   }
@@ -654,5 +657,41 @@ table.variations td {
     border-left: 8px solid #09608c;
     padding: 8px 20px 2px 5px;
     margin-left: 35px;
+  }
+  #shiny-home #patrimonio {
+    padding-bottom: 20px;
+    background: none;
+  }
+  #shiny-home #patrimonio .flex {
+    align-items: center;
+    vertical-align: middle;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  #shiny-home #patrimonio .dark-blue-back {
+    height: 300px;
+  }
+  #shiny-home #patrimonio .dark-blue-back h2 {
+    padding-top: 40px;
+  }
+  #shiny-home #patrimonio img {
+    width: 39%;
+  }
+  #shiny-home #patrimonio .col {
+    position: relative;
+    bottom: 150px;
+    background-color: white;
+    width: 72%;
+    margin: 0;
+    padding: 20px 8px;
+  }
+  #shiny-home #patrimonio .col p {
+    font-size: 22px;
+  }
+  #shiny-home #patrimonio #line {
+    position: relative;
+    bottom: 150px;
+    width: 73%;
+    padding: 50px 0px;
   }
 }
