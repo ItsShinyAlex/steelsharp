@@ -17,102 +17,174 @@
   font-weight: bold;
   font-style: normal;
 }
-b {
+.price .amount {
+  display: none;
+}
+table.variations {
+  list-style: block;
+}
+table.variations td {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+.woodmart-products-per-page {
+  display: none;
+}
+.woocommerce-variation-add-to-cart {
+  display: none;
+}
+.quantity {
+  display: none;
+}
+.product-share {
+  display: none;
+}
+.single_add_to_cart_button {
+  display: none;
+}
+.woodmart-add-btn {
+  display: none;
+}
+.sticky-header {
+  background-color: transparent;
+}
+.menu-navbar-container {
+  background-color: whitesmoke;
+  opacity: 0.8;
+}
+.main-nav .menu-navbar-container {
+  padding: 8px 30px;
+  padding-right: 70px;
+}
+.main-nav .menu-navbar-container #menu-navbar {
+  width: 100% !important;
+}
+.main-nav .menu-navbar-container #menu-item-70 {
+  align-items: center;
+  padding-left: 50px;
+}
+.main-nav .menu-item {
+  width: 23%;
+}
+.main-nav a.woodmart-nav-link {
+  font: "Avenir-Black";
+  height: 60%;
+  text-align: center;
+  padding: 12px 60px;
+}
+.main-nav a.woodmart-nav-link span {
+  font-size: 20px;
+  font-weight: 900;
+  color: #002b53;
+  transition: all 1s ease;
+}
+.main-nav a.woodmart-nav-link span:hover {
+  color: #0093ca;
+  transition: all 0.4s ease;
+}
+.right-column {
+  width: 0% !important;
+  display: none !important;
+}
+#shiny-home .mov {
+  display: none;
+}
+#shiny-home b {
   font-weight: 600;
 }
-.container {
+#shiny-home .container {
   padding: 0px;
   margin: 0px;
-  max-width: 1600px;
+  max-width: 2000px;
 }
-img {
+#shiny-home img {
   max-width: 500%;
   height: auto;
   vertical-align: middle;
 }
-p {
+#shiny-home p {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.gray-block {
+#shiny-home .gray-block {
   background-color: #ebebeb;
 }
-.dark-blue-back {
+#shiny-home .dark-blue-back {
   padding: 3px 0px;
   background-color: #002b53;
 }
 @media (min-width: 768px) {
-  .container {
+  #shiny-home .container {
     width: 100%;
   }
 }
-section {
-  height: 100% !important;
+#shiny-home section {
   width: 100% !important;
   display: inline-block !important;
 }
-.flex {
+#shiny-home .flex {
   display: flex;
   flex-wrap: wrap;
 }
-.flex.center-h {
+#shiny-home .flex.center-h {
   justify-content: center;
   text-align: center;
 }
-.flex.nowrap {
+#shiny-home .flex.nowrap {
   flex-wrap: nowrap;
 }
-.flex .col {
+#shiny-home .flex .col {
   width: 50%;
-  padding: 0px 10px;
+  padding: 0px 20px;
   box-sizing: border-box;
 }
-.flex .col.align-self-center {
+#shiny-home .flex .col.align-self-center {
   align-self: center;
 }
-.flex .col.align-self-end {
+#shiny-home .flex .col.align-self-end {
   align-self: flex-end;
 }
-.flex .l-col {
+#shiny-home .flex .l-col {
   margin-left: 0px !important;
 }
-.flex .r-col {
+#shiny-home .flex .r-col {
   margin-right: 0px !important;
 }
-.center {
+#shiny-home .center {
   align-items: center;
   text-align: center;
 }
-.left {
+#shiny-home .left {
   text-align: left;
   float: left;
 }
-.right {
+#shiny-home .right {
   text-align: right;
   float: right;
 }
-p {
+#shiny-home p {
   color: #363636;
   font-size: 33px;
   font-family: "Avenir";
   line-height: 95%;
 }
-.dark-blue {
+#shiny-home .dark-blue {
   color: #002b53;
 }
-.white {
+#shiny-home .white {
   color: white;
 }
-.navy {
+#shiny-home .navy {
   color: #09608c;
 }
-.blue {
+#shiny-home .blue {
   color: #0294ca;
 }
-.sky {
+#shiny-home .sky {
   color: #0093ca;
 }
-.btn-navy {
+#shiny-home .btn-navy {
   background-color: #09608c;
   font-family: 'Avenir';
   color: white;
@@ -123,54 +195,54 @@ p {
   position: relative;
   z-index: 2;
 }
-.svg {
+#shiny-home .svg {
   width: 60%;
   margin: 0;
 }
-.svg img {
+#shiny-home .svg img {
   width: 100%;
 }
-.pad-left {
+#shiny-home .pad-left {
   padding-left: 11%;
 }
-.pad-r {
+#shiny-home .pad-r {
   padding-right: 1%;
 }
-h1 {
+#shiny-home h1 {
   color: white;
   font-size: 32px;
   font-weight: 600;
   line-height: 95%;
   padding: 10px 0px;
 }
-h2 {
+#shiny-home h2 {
   line-height: 90%;
   color: #363636;
   font-size: 48px;
   font-family: "Avenir";
   font-weight: 400;
 }
-h2 .dark-blue {
+#shiny-home h2 .dark-blue {
   color: #002b53;
   font-weight: 1000;
   font-size: 56px;
 }
-.heavy {
+#shiny-home .heavy {
   font-weight: 900;
   font-size: 60px;
 }
-html {
+#shiny-home html {
   background: url(../img/home/firstCover.jpg) top no-repeat;
   background-size: 100%;
 }
-#home-banner .center {
+#shiny-home #home-banner .center {
   align-items: center;
   text-align: center;
 }
-#home-banner .columna {
+#shiny-home #home-banner .columna {
   width: 120%;
 }
-#home-banner .bluebox {
+#shiny-home #home-banner .bluebox {
   position: relative;
   z-index: 1;
   background-color: #002b53;
@@ -178,105 +250,105 @@ html {
   padding: 5px 30px;
   padding-bottom: 30px;
 }
-#home-banner .bluebox p {
+#shiny-home #home-banner .bluebox p {
   padding-top: 0px;
 }
-#home-banner #s1 {
+#shiny-home #home-banner #s1 {
   padding: 30px 50px 7px 50px;
   padding-bottom: 40px;
   text-align: justify !important;
   text-align-last: center !important;
 }
-#home-banner #s1 h2 {
+#shiny-home #home-banner #s1 h2 {
   color: white;
   font-size: 42px;
 }
-#home-banner #s1 h2 span {
+#shiny-home #home-banner #s1 h2 span {
   font-size: 44px;
 }
-#home-banner #col-smaller {
+#shiny-home #home-banner #col-smaller {
   width: 80%;
 }
-#home-banner #s2 {
+#shiny-home #home-banner #s2 {
   padding: 40px 50px;
   padding-top: 66px;
   text-align: justify !important;
 }
-#home-banner #s2 p {
+#shiny-home #home-banner #s2 p {
   font-weight: 100;
   font-size: 28px;
 }
-#home-banner #s2 h2 {
+#shiny-home #home-banner #s2 h2 {
   text-align-last: center !important;
   line-height: 115%;
   color: white;
   font-size: 26px;
 }
-#who {
+#shiny-home #who {
   padding-top: 70px;
 }
-#who .flex {
+#shiny-home #who .flex {
   border-top: 12px solid #002b53;
 }
-#who img {
+#shiny-home #who img {
   position: relative;
   bottom: 160px;
   right: 90px;
 }
-#who h2 {
+#shiny-home #who h2 {
   padding-top: 80px;
 }
-#who p {
+#shiny-home #who p {
   padding-top: 40px;
 }
-#who span {
+#shiny-home #who span {
   font-weight: 900;
 }
-#valores .flex {
+#shiny-home #valores .flex {
   padding-top: 50px;
 }
-#valores .col {
+#shiny-home #valores .col {
   padding: 30px 10px;
 }
-#valores h2 {
+#shiny-home #valores h2 {
   line-height: 110%;
 }
-#valores .right {
+#shiny-home #valores .right {
   border-right: 2px solid #002b53;
 }
-#valores p {
+#shiny-home #valores p {
   padding: 0px 20px;
   margin: 3px 0px;
 }
-#proposito #miss-happy {
+#shiny-home #proposito #miss-happy {
   background: url(../img/home/miss-happy.png) 70px 40px no-repeat;
 }
-#proposito .col {
+#shiny-home #proposito .col {
   padding-bottom: 200px;
   padding-top: 40px;
 }
-#proposito .col h2 {
+#shiny-home #proposito .col h2 {
   padding-bottom: 30px;
 }
-#proposito p {
+#shiny-home #proposito p {
   border-left: 8px solid #09608c;
   padding: 8px 20px 2px 10px;
 }
-#patrimonio {
+#shiny-home #patrimonio {
   padding-bottom: 20px;
   background: url(../img/home/addon-u.png) center 1020px no-repeat;
   background-size: 110%;
 }
-#patrimonio .dark-blue-back {
+#shiny-home #patrimonio .dark-blue-back {
   height: 400px;
 }
-#patrimonio .dark-blue-back h2 {
+#shiny-home #patrimonio .dark-blue-back h2 {
   padding-top: 40px;
 }
-#patrimonio img {
+#shiny-home #patrimonio img {
   width: 39%;
 }
-#patrimonio .col {
+#shiny-home #patrimonio .col {
   position: relative;
   bottom: 150px;
   background-color: white;
@@ -284,34 +356,34 @@ html {
   margin: 0px 14px;
   padding: 30px;
 }
-#patrimonio .col p {
+#shiny-home #patrimonio .col p {
   font-size: 28px;
 }
-#patrimonio #line {
+#shiny-home #patrimonio #line {
   position: relative;
   bottom: 150px;
   width: 73%;
   padding: 50px 0px;
 }
-#soluciones {
+#shiny-home #soluciones {
   padding-bottom: 250px;
   background: url(../img/home/line-blue-addonToP-border.png) 134% 23% no-repeat;
   left: 500px;
 }
-#soluciones .border-right {
+#shiny-home #soluciones .border-right {
   padding: 11px;
   border-right: solid 12px #09608c;
   margin: 90px 180px;
   text-align: justify;
 }
-#soluciones h2 {
+#shiny-home #soluciones h2 {
   font-size: 50px;
   line-height: 115%;
 }
-#soluciones .flex {
+#shiny-home #soluciones .flex {
   height: 497px;
 }
-#soluciones .col {
+#shiny-home #soluciones .col {
   position: relative;
   bottom: 5px;
   background-color: white;
@@ -320,29 +392,29 @@ html {
   padding: 30px;
   height: 500px;
 }
-#soluciones .flex.flex-small {
+#shiny-home #soluciones .flex.flex-small {
   height: 120px;
 }
-#soluciones .flex .col-small {
+#shiny-home #soluciones .flex .col-small {
   height: 100px;
 }
-#soluciones p .heavy {
+#shiny-home #soluciones p .heavy {
   padding: 0;
   line-height: 100%;
   font-size: 34px;
 }
-#contacto {
+#shiny-home #contacto {
   padding-bottom: 70px;
 }
-#contacto h2 {
+#shiny-home #contacto h2 {
   padding-left: 160px;
 }
-#contacto .gray-block {
+#shiny-home #contacto .gray-block {
   padding: 50px 160px 30px 170px;
-  min-height: 81%;
+  min-height: 666px;
   font-style: italic;
 }
-#contacto .gray-block label {
+#shiny-home #contacto .gray-block label {
   font-size: 17px;
   font-weight: 600;
   color: #002b53;
@@ -350,7 +422,7 @@ html {
   padding-bottom: 15px;
   padding-left: 35px;
 }
-#contacto .gray-block .fld_1585235_1 {
+#shiny-home #contacto .gray-block .fld_1585235_1 {
   margin-left: 0px;
   position: absolute;
   top: 0;
@@ -358,41 +430,41 @@ html {
   height: 25px;
   width: 25px;
 }
-#contacto .gray-block input.form-control {
+#shiny-home #contacto .gray-block input.form-control {
   height: 55px;
 }
-#contacto #c-small {
+#shiny-home #contacto #c-small {
   width: 28%;
 }
-#contacto #c-big {
+#shiny-home #contacto #c-big {
   padding-top: 70px;
   padding-left: 0px;
   width: 72%;
 }
-#contacto #industria-tuberias {
+#shiny-home #contacto #industria-tuberias {
   position: relative;
   right: 36%;
   bottom: 15%;
 }
-#contacto .logo img {
+#shiny-home #contacto .logo img {
   margin-top: 5%;
   width: 80%;
 }
-#contacto div.flex div.icon {
+#shiny-home #contacto div.flex div.icon {
   width: 10%;
   padding: 0;
   margin: 0;
 }
-#contacto div.flex div.icon img {
+#shiny-home #contacto div.flex div.icon img {
   width: 90%;
 }
-#contacto #contact-flex {
+#shiny-home #contacto #contact-flex {
   padding: 30px 40px 0px 40px;
 }
-#contacto #wa {
+#shiny-home #contacto #wa {
   margin-left: 80px;
 }
-#contacto div.nowrap .col {
+#shiny-home #contacto div.nowrap .col {
   width: 29%;
   display: flex;
   justify-content: center;
@@ -400,14 +472,14 @@ html {
   padding-left: 0;
   padding-right: 20px;
 }
-#contacto div.nowrap .col p {
+#shiny-home #contacto div.nowrap .col p {
   line-height: 120%;
   font-size: 21px;
 }
-#contacto p {
+#shiny-home #contacto p {
   font-size: 20px;
 }
-#contacto #face {
+#shiny-home #contacto #face {
   padding-top: 0;
   margin-top: 0;
   padding-left: 15%;
@@ -415,10 +487,10 @@ html {
   background-color: #0093ca;
   width: 50%;
 }
-#contacto #face img {
+#shiny-home #contacto #face img {
   width: 40%;
 }
-#contacto #face .col {
+#shiny-home #contacto #face .col {
   margin: 0;
   padding: 0;
   width: 45%;
@@ -426,37 +498,161 @@ html {
   justify-content: center;
   flex-direction: column;
 }
-#contacto #face .col .white {
+#shiny-home #contacto #face .col .white {
   font-size: 30px;
 }
-#contacto .pad-left {
+#shiny-home #contacto .pad-left {
   padding-left: 8%;
 }
-#contacto .left p.dark-blue {
+#shiny-home #contacto .left p.dark-blue {
   font-size: 23px;
   padding-top: 20px;
 }
-#contacto .flex {
+#shiny-home #contacto .flex {
   margin-top: 60px;
 }
-.sticky-header {
-  background-color: transparent;
+#shiny-home #contacto .last_row {
+  height: 147px;
+  margin-top: 100px;
+  float: right;
 }
-.menu-navbar-container {
-  background-color: whitesmoke;
-  opacity: 0.8;
+#shiny-home #contacto input.btn-sky {
+  background-color: #0093ca;
+  font-family: 'Avenir';
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  border: 0;
+  padding: 8px 40px;
 }
-@media screen and (max-width: 1220px) {
-  #patrimonio {
+@media screen and (max-width: 1222px) {
+  #shiny-home #patrimonio {
     background: url(../img/home/addon-u.png) center 1100px no-repeat;
   }
-  #soluciones {
-    background: url(../img/home/line-blue-addonToP-border.png) 143% 25% no-repeat;
+  #shiny-home #soluciones {
+    background: url(../img/home/line-blue-addonToP-border.png) 146% 23% no-repeat;
   }
-  #contacto h2 {
+  #shiny-home #contacto h2 {
     padding-left: 220px;
   }
-  #contacto .gray-block {
+  #shiny-home #contacto .gray-block {
     padding: 50px 80px 30px 227px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #shiny-home h2 span.white {
+    font-size: 45px;
+  }
+  #shiny-home .mov {
+    display: block;
+  }
+  #shiny-home .mov-hid {
+    display: none;
+  }
+  #shiny-home p {
+    font-size: 18px;
+    line-height: 100%;
+  }
+  #shiny-home h2 {
+    font-size: 32px;
+    line-height: 110%;
+  }
+  #shiny-home h2 span.dark-blue {
+    font-size: 38px;
+  }
+  #shiny-home .flex.nowrap {
+    flex-wrap: wrap;
+  }
+  #shiny-home .flex .col {
+    width: 100%;
+    padding: 0px 3px;
+    box-sizing: border-box;
+  }
+  #shiny-home #who {
+    padding: 30px 45px;
+  }
+  #shiny-home #who .flex {
+    flex-wrap: wrap-reverse;
+    text-align: justify;
+    align-items: center;
+    border-top: 6px solid #002b53;
+  }
+  #shiny-home #who .flex .col h2 {
+    padding-left: 23%;
+  }
+  #shiny-home #who img {
+    width: 100%;
+    position: inherit;
+    padding-top: 30px;
+    bottom: 0px;
+    left: 0px;
+  }
+  #shiny-home #who h2 {
+    padding-top: 30px;
+  }
+  #shiny-home #who p {
+    padding-top: 20px;
+  }
+  #shiny-home #valores {
+    background: url(../img/home/addon-u.png) center -100px no-repeat;
+  }
+  #shiny-home #valores .dark-blue-back {
+    padding: 5px;
+    margin: 0px 60px;
+    width: 300px;
+  }
+  #shiny-home #valores .center {
+    padding-top: 30px;
+    position: relative;
+    border-top: 0px solid #09608c;
+    text-align: justify;
+    text-align-last: center;
+    margin: 0 auto;
+  }
+  #shiny-home #valores .center .left {
+    margin: auto;
+    align-items: center;
+    text-align: justify;
+    text-align-last: left;
+    float: none;
+    margin: 0 auto;
+    padding-left: 16%;
+  }
+  #shiny-home #valores .center .left p {
+    font-size: 26px;
+  }
+  #shiny-home #valores .col {
+    padding: 30px 10px;
+  }
+  #shiny-home #valores h2 {
+    line-height: 110%;
+  }
+  #shiny-home #valores .right {
+    border-right: 2px solid #002b53;
+  }
+  #shiny-home #valores p {
+    padding: 0px 20px;
+    margin: 3px 0px;
+  }
+  #shiny-home #proposito .flex {
+    flex-wrap: wrap-reverse;
+  }
+  #shiny-home #proposito #miss-happy {
+    background: url(../img/home/miss-happy.png) 0px 60px no-repeat;
+    background-size: 100%;
+  }
+  #shiny-home #proposito .col {
+    padding-bottom: 200px;
+    padding-top: 40px;
+  }
+  #shiny-home #proposito .col h2 {
+    padding-bottom: 30px;
+    padding-left: 35px;
+  }
+  #shiny-home #proposito p {
+    border-left: 8px solid #09608c;
+    padding: 8px 20px 2px 5px;
+    margin-left: 35px;
   }
 }

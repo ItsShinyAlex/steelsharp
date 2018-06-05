@@ -1,11 +1,11 @@
 // main: main.less
 
-@media screen and (max-width:1220px){
+@media screen and (max-width:1222px){
     #patrimonio{
         background: url(../img/home/addon-u.png) center 1100px no-repeat;
     }
     #soluciones{
-     background: url(../img/home/line-blue-addonToP-border.png) 143% 25% no-repeat;
+     background: url(../img/home/line-blue-addonToP-border.png) 146% 23% no-repeat;
     }
     #contacto{
         h2{
@@ -15,4 +15,151 @@
         padding: 50px 80px 30px 227px;
         }
     }
+}
+
+@media screen and (max-width:650px){
+    h2{
+        span.white{
+            font-size: 45px;
+        }
+    }
+    .mov{
+        display: block;
+    }
+    .mov-hid{
+        display: none;
+    }
+    p{
+        font-size: 18px;
+        line-height: 100%;
+    }
+    h2{
+        
+        font-size: 32px;
+        line-height: 110%;
+        span.dark-blue{
+            font-size: 38px;
+        }
+    }
+    
+     .flex {
+        &.nowrap {
+            flex-wrap: wrap;
+        }
+
+        .col {
+            width: 100%;    
+            padding: 0px 3px;
+            box-sizing: border-box;
+          }
+        }
+    
+    #who{
+        
+        padding: 30px 45px;
+        .flex{
+            flex-wrap: wrap-reverse;
+            text-align: justify;
+            align-items: center;
+            border-top: 6px solid @navy;
+            
+            .col{
+                h2{
+                    padding-left: 23%;
+                }
+            }
+        }
+        img{
+            width: 100%;
+            position: inherit;
+            padding-top: 30px;
+            bottom: 0px;
+            left: 0px;
+        }
+        h2{
+            padding-top: 30px;
+        }
+        p{
+            padding-top: 20px;
+        }
+    }
+    
+    #valores{
+        background: url(../img/home/addon-u.png) center -100px no-repeat;
+        .dark-blue-back{
+            padding: 5px;
+            margin: 0px 60px;
+            width: 300px;
+        }
+
+        .center{
+            padding-top: 30px;
+            position: relative;
+            border-top: 0px solid @l-navy;
+            text-align: justify;
+            text-align-last: center;
+            margin:0 auto;
+            
+            .left{
+                margin: auto;
+                align-items: center;    
+                text-align: justify;
+                text-align-last: left;
+                float: none;
+                margin:0 auto;
+                padding-left: 16%;
+                
+                p{
+                font-size: 26px;
+                }
+                
+            }
+            
+        }
+        .col{
+            padding: 30px 10px;
+
+        }
+        h2{
+            line-height: 110%;
+        }
+        .right{
+            border-right: 2px solid @navy;
+        }
+        p{
+            padding: 0px 20px;
+            margin: 3px 0px;
+        }
+    }
+    
+    #proposito{
+        
+        .flex{
+            flex-wrap: wrap-reverse;
+        }
+
+        #miss-happy{
+             background: url(../img/home/miss-happy.png) 0px 60px no-repeat;
+             background-size: 100%;
+        }
+        .col{
+            //padding-left: 20px;
+            padding-bottom: 200px;
+            padding-top: 40px;
+            h2{
+                padding-bottom: 30px;
+                padding-left: 35px;
+            }
+        }
+
+        p{
+            
+            border-left: 8px solid @l-navy;
+            padding: 8px 20px 2px 5px;
+            margin-left: 35px;
+        }
+    }
+    
+    
+    
 }

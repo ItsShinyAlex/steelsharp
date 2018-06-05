@@ -1,11 +1,13 @@
 <?php
-    /* Template Name:  Principal - Home*/ 
+ /* Template Name:  Principal - Home*/ 
+ echo "<section id ='shiny-home'>";
     get_header();
 ?>
 
-<section id="home-banner">
+
+<div id="home-banner">
         <?php putRevSlider("home", "home.php"); ?>
-</section>
+</div>
 
 <section id="who">
     <div class="flex">
@@ -47,8 +49,8 @@
            <span class="heavy white pad-r">Valores</span>
         </h2>
     </div>
-    <div class="flex">
-        <div class="col right">
+    <div class="flex mov-hid">
+        <div class="col right ">
             <p>Veracidad ·</p>
             <p>Responsabilidad ·</p>
             <p>Honestidad · </p>
@@ -61,6 +63,22 @@
             <p>· Efectividad</p>
         </div>
     </div>
+    
+    <div class="center mov">
+       <div class="left">
+            <p>· Veracidad</p>
+            <p>· Responsabilidad</p>
+            <p>· Honestidad</p>
+            <p>· Compromiso</p>
+            <p>· Confidencialidad</p>
+            <p>· Bienestar</p>
+            <p>· Orgullo</p>
+            <p>· Efectividad</p>
+       </div>
+        
+    </div>
+
+
 </section>
 
 <section id="proposito">
@@ -153,32 +171,34 @@
     <div class="flex nowrap dark-blue-back">
         <div class="l-col col center">
             <div>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/cajaFuerte.png" alt="caja fuerte"></div>
+                <a href="https://steelsharp.com/categoria-producto/cajas/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/cajaFuerte.png" alt="caja fuerte"></a></div>
             </div>
         <div class="col center">
             <div>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/PuertaBlindada.png" alt="Esclusa blindada">
+                <a href="https://steelsharp.com/categoria-producto/puertas-esclusas/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/PuertaBlindada.png" alt="Esclusa blindada"></a>
             </div>
         </div>
         <div class="r-col col center">
             <div>
-             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/VidrioBlindado.png" alt="Ventana blindada">
+             <a href="https://steelsharp.com/categoria-producto/ventanas/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/VidrioBlindado.png" alt="Ventana blindada"></a>
             </div>
         </div>
     </div>
     <div class="flex nowrap flex-small">
         <div class="l-col col center col-small ">
-            <p>Cajas Fuertes</p>
+            <a href="https://steelsharp.com/categoria-producto/cajas/"><p>Cajas Fuertes</p></a>
         </div>
         <div class="col center col-small ">
-            <p>Puertas y Esclusas<br>
+            <a href="https://steelsharp.com/categoria-producto/puertas-esclusas/"><p>Puertas y Esclusas<br>
             <span class="dark-blue heavy">Blindadas</span>
             </p>
+            </a>
         </div>
         <div class="r-col col center col-small ">
-            <p>Ventanas<br>
+            <a href="https://steelsharp.com/categoria-producto/ventanas/"><p>Ventanas<br>
             <span class="dark-blue heavy">Blindadas</span>
             </p>
+            </a>
         </div>
     </div>
 </section>
@@ -188,7 +208,7 @@
         <div id="c-small" class="col">
             <img id="industria-tuberias" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto.jpg" alt="Fabrica industrial">
             <div class="center logo">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="STEELSHARP, cajas fuertes y equipos blindados">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo.svg" alt="STEELSHARP, cajas fuertes y equipos blindados">
             </div>
             
         </div>
@@ -243,8 +263,11 @@
     
 </section>
 
+
+
 <?php 
     get_footer();
+     echo "<section id ='shiny-home'>";
 ?>
 
 
