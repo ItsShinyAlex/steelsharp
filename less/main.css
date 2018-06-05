@@ -87,6 +87,11 @@ table.variations td {
   width: 0% !important;
   display: none !important;
 }
+#shiny-home {
+  /* ==========================================================================
+  Austes de la tienda
+   ========================================================================== */
+}
 #shiny-home .mov {
   display: none;
 }
@@ -525,6 +530,9 @@ table.variations td {
   font-style: normal;
   border: 0;
   padding: 8px 40px;
+}
+#shiny-home .tabs-layout-tabs .tabs {
+  background: #ebebeb;
 }
 @media screen and (max-width: 1222px) {
   #shiny-home #patrimonio {
