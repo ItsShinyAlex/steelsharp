@@ -535,6 +535,13 @@ table.variations {
                 font-size: 34px;
             }
         }
+        
+        img{
+            transition: all 0.3s ease-in-out !important;           
+            &:hover{
+                transform: scale(1.1)!important;
+            }
+        }
     }
 
     #contacto {
@@ -706,10 +713,30 @@ table.variations {
             font-size: @size-texto;
             color: #000;
         }
+        
+        .btn-enviar{
+            background: none;
+            color: @sky;
+            font-family: 'Notera';
+            font-size: 60px;
+            float: right;   
+            text-transform: capitalize;
+            border-bottom: 2px solid @sky;
+            line-height: 0.9;
+            padding: 0;
+            margin: 0 0 40px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background: none !important;
+                color: @blue;
+                box-shadow: none !important;
+                border-bottom: 2px solid @blue;
+            }
+        }
     }
     
     .tabs-layout-tabs .tabs {
-        background: @gray;
+        background: @blue;
     }
     
     @import "responsive";
