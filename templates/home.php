@@ -205,7 +205,7 @@
 </section>
 
 <section id="contacto" class="template-section">
-    <div class="flex">
+    <div class="flex mov-hid">
         <div id="c-small" class="col">
             <img id="industria-tuberias" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto.jpg" alt="Fabrica industrial">
             <div class="center logo">
@@ -221,6 +221,16 @@
             </div>
         </div>
     </div>
+    <div class="center mov">
+        <img id="industria-tuberias" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto-mov.jpg" alt="Fabrica industrial">
+         <h2 class="heavy">Contáctanos</h2>
+        <div class="center contact-mov gray-block">
+            
+            <?php echo do_shortcode("[caldera_form id='CF5b16e82db0e39']"); ?>
+        </div>
+        <img id="ss-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo.svg" alt="STEELSHARP, cajas fuertes y equipos blindados">
+    </div>
+    
     <div id="contact-flex" class="flex nowrap">
         <div class="col icon">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/7.svg" alt="horario">
