@@ -1,15 +1,16 @@
 <?php
  /* Template Name:  Principal - Home*/ 
- echo "<section id ='shiny-home'>";
+
     get_header();
 ?>
 
+<div id ='shiny-home'>
 
 <div id="home-banner">
         <?php putRevSlider("home", "home.php"); ?>
 </div>
 
-<section id="who">
+<section id="who" class="template-section">
     <div class="flex">
         <div class="col">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/CajaFuerteYdemas.png" alt="Caja fuerte e inmuebles de alta seguridad" id="cajas-fuertes">
@@ -42,7 +43,7 @@
     </div>
 </section>
 
-<section id="valores">
+<section id="valores" class="template-section">
     <div class="center dark-blue-back">
         <h2 class="white">
            Nuestros <br>
@@ -81,7 +82,7 @@
 
 </section>
 
-<section id="proposito">
+<section id="proposito" class="template-section">
     <div class="flex">
         <div class="col">
             <h2>
@@ -102,7 +103,7 @@
     </div>
 </section>
 
-<section id="patrimonio">
+<section id="patrimonio" class="template-section">
     <div class="center dark-blue-back">
         <h2 class="white">Blindamos tu<br>
             <span class="heavy">Patrimonio</span>
@@ -155,7 +156,7 @@
 
 </section>
 
-<section id="soluciones">
+<section id="soluciones" class="template-section">
     <div class="center">
         <h2>
             SOLUCIONES DE SEGURIDAD<br>
@@ -203,7 +204,7 @@
     </div>
 </section>
 
-<section id="contacto">
+<section id="contacto" class="template-section">
     <div class="flex">
         <div id="c-small" class="col">
             <img id="industria-tuberias" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/TuboContacto.jpg" alt="Fabrica industrial">
@@ -263,11 +264,10 @@
     
 </section>
 
-
+</div>
 
 <?php 
-    get_footer();
-     echo "<section id ='shiny-home'>";
+    get_footer();     
 ?>
 
 
