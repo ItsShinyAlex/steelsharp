@@ -105,7 +105,7 @@ window.sr = ScrollReveal({ reset: false });
         sr.reveal('.template-section h3', subtituloH3);
         sr.reveal('.template-section h4', subtituloH4);
         sr.reveal('.template-section img, .template-section input', imagenes);
-        sr.reveal('.templete-section p', contenido);
+        sr.reveal('.template-section p, .template-section ul', contenido);
         sr.reveal('.template-section .boton', contenido);
 
       function addCommasToNum( num ){
