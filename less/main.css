@@ -291,6 +291,7 @@ table.variations td {
   font-size: 26px;
 }
 #shiny-home #who {
+  padding-bottom: 50px;
   padding-right: 15px;
   padding-top: 70px;
 }
@@ -551,43 +552,6 @@ table.variations td {
   font-style: normal;
   border: 0;
   padding: 8px 40px;
-<<<<<<< HEAD
-=======
-}
-#shiny-home .woodmart-hover-standard .btn-add,
-#shiny-home .search-by-category .input-dropdown-inner > a {
-  display: none;
-}
-#shiny-home .product-template-default ul li {
-  font-size: 16px;
-  color: #000;
-}
-#shiny-home .product-template-default p {
-  font-size: 16px;
-  color: #000;
-}
-#shiny-home .product-template-default .btn-enviar {
-  background: none;
-  color: #0093ca;
-  font-family: 'Notera';
-  font-size: 60px;
-  float: right;
-  text-transform: capitalize;
-  border-bottom: 2px solid #0093ca;
-  line-height: 0.9;
-  padding: 0;
-  margin: 0 0 40px;
-  transition: all 0.3s ease-in-out;
-}
-#shiny-home .product-template-default .btn-enviar:hover {
-  background: none !important;
-  color: #0294ca;
-  box-shadow: none !important;
-  border-bottom: 2px solid #0294ca;
-}
-#shiny-home .tabs-layout-tabs .tabs {
-  background: #0294ca;
->>>>>>> f7423fd7784189916cf2b37d7c52140fb1a3cf9d
 }
 @media screen and (max-width: 1225px) {
   #shiny-home #patrimonio {
