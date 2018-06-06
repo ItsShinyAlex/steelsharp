@@ -545,6 +545,7 @@ table.variations td {
   border: 0;
   padding: 8px 40px;
 }
+<<<<<<< HEAD
 #shiny-home #contacto input.btn-enviar {
   background-color: #0093ca;
   font-family: 'Avenir';
@@ -554,6 +555,11 @@ table.variations td {
   font-style: normal;
   border: 0;
   padding: 8px 40px;
+=======
+#shiny-home .woodmart-hover-standard .btn-add,
+#shiny-home .search-by-category .input-dropdown-inner > a {
+  display: none;
+>>>>>>> d6c29d145a8ac016c59b200a90942c2e9d701810
 }
 #shiny-home .product-template-default ul li {
   font-size: 16px;
