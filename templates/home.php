@@ -6,8 +6,12 @@
 
 <div id ='shiny-home'>
 
-<div id="home-banner">
+<div id="home-banner" class="mov-hid">
         <?php putRevSlider("home", "home.php"); ?>
+</div>
+
+<div id="home-banner-mov" class="mov">
+        <?php putRevSlider("mov", "home.php"); ?>
 </div>
 
 <section id="who" class="template-section">
@@ -269,7 +273,7 @@
     </div>
     
     <div class="left pad-left">
-        <p class="dark-blue">Diseño por EsBrillante Estudio Digital 2018</p>
+        <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" target="_blank"><p class="dark-blue">Diseño por EsBrillante Estudio Digital 2018</p></a>
     </div>
     
 </section>

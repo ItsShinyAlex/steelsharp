@@ -296,6 +296,7 @@ table.variations td {
   font-size: 26px;
 }
 #shiny-home #who {
+  padding-right: 15px;
   padding-top: 70px;
 }
 #shiny-home #who .flex {
@@ -304,6 +305,7 @@ table.variations td {
 #shiny-home #who img {
   position: relative;
   bottom: 110px;
+  left: 15px;
   width: 95%;
 }
 #shiny-home #who h2 {
@@ -423,7 +425,7 @@ table.variations td {
   transform: scale(1.1) !important;
 }
 #shiny-home #contacto {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 #shiny-home #contacto h2 {
   padding-left: 240px;
@@ -545,7 +547,6 @@ table.variations td {
   border: 0;
   padding: 8px 40px;
 }
-<<<<<<< HEAD
 #shiny-home #contacto input.btn-enviar {
   background-color: #0093ca;
   font-family: 'Avenir';
@@ -555,11 +556,10 @@ table.variations td {
   font-style: normal;
   border: 0;
   padding: 8px 40px;
-=======
+}
 #shiny-home .woodmart-hover-standard .btn-add,
 #shiny-home .search-by-category .input-dropdown-inner > a {
   display: none;
->>>>>>> d6c29d145a8ac016c59b200a90942c2e9d701810
 }
 #shiny-home .product-template-default ul li {
   font-size: 16px;
@@ -611,6 +611,78 @@ table.variations td {
   }
 }
 @media screen and (max-width: 650px) {
+  #shiny-home #home-banner-mov .center {
+    align-items: center;
+    text-align: center;
+  }
+  #shiny-home #home-banner-mov .columna {
+    width: 55%;
+  }
+  #shiny-home #home-banner-mov .bluebox {
+    position: relative;
+    z-index: 1;
+    background-color: #002b53;
+    opacity: 0.8;
+    padding: 5px 30px;
+    padding-bottom: 30px;
+  }
+  #shiny-home #home-banner-mov .bluebox p {
+    padding-top: 0px;
+  }
+  #shiny-home #home-banner-mov #s0 {
+    padding: 10px 15px 30px 15px;
+  }
+  #shiny-home #home-banner-mov #s0 h1 {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  #shiny-home #home-banner-mov #s0 p {
+    font-size: 16px;
+  }
+  #shiny-home #home-banner-mov #s0 .btn-navy {
+    padding: 8px 32.45%;
+  }
+  #shiny-home #home-banner-mov #s1 {
+    padding: 20px 20px 7px 20px;
+    padding-bottom: 40px;
+    text-align: justify !important;
+    text-align-last: center !important;
+  }
+  #shiny-home #home-banner-mov #s1 h2 {
+    color: white;
+    font-size: 26px;
+  }
+  #shiny-home #home-banner-mov #s1 h2 p {
+    font-size: 28px !important;
+  }
+  #shiny-home #home-banner-mov #s1 h2 span {
+    font-size: 28px;
+  }
+  #shiny-home #home-banner-mov #con-mv {
+    padding: 8px 30.3%;
+  }
+  #shiny-home #home-banner-mov #col-smaller {
+    width: 80%;
+  }
+  #shiny-home #home-banner-mov #s2 {
+    padding: 20px 20px 7px 20px;
+    padding-bottom: 40px;
+    text-align: justify !important;
+    text-align-last: center !important;
+  }
+  #shiny-home #home-banner-mov #s2 h2 {
+    color: white;
+    font-size: 17px;
+  }
+  #shiny-home #home-banner-mov #s2 h2 p {
+    font-size: 28px !important;
+  }
+  #shiny-home #home-banner-mov #s2 h2 span {
+    font-size: 28px;
+  }
+  #shiny-home #home-banner-mov .center .btn-navy {
+    padding: 8px 32%;
+  }
   #shiny-home .heavy {
     font-size: 45px;
   }
