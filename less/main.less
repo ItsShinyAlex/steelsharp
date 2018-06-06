@@ -30,13 +30,13 @@
 @brown-black: #363636;
 @sky: #0093ca;
 
-.home .container{
+.home .container {
     width: 100%;
 }
 
-.main-page-wrapper{
-    div.container{
-    width:  100%;
+.main-page-wrapper {
+    div.container {
+        width: 100%;
     }
 }
 
@@ -399,8 +399,8 @@ table.variations {
         }
         img {
             position: relative;
-                bottom: 110px;
-                width: 95%;
+            bottom: 110px;
+            width: 95%;
         }
         h2 {
             padding-top: 80px;
@@ -537,10 +537,10 @@ table.variations {
                 font-size: 34px;
             }
         }
-        
-        img{
-            transition: all 0.3s ease-in-out !important;           
-            &:hover{
+
+        img {
+            transition: all 0.3s ease-in-out !important;
+            &:hover {
                 transform: scale(1.1)!important;
             }
         }
@@ -553,7 +553,7 @@ table.variations {
             padding-left: 240px;
         }
         .gray-block {
-            padding:  50px 100px 30px 245px;
+            padding: 50px 100px 30px 245px;
             min-height: 666px;
             font-style: italic;
 
@@ -697,8 +697,8 @@ table.variations {
             border: 0;
             padding: 8px 40px;
         }
-        
-        input.btn-enviar{
+
+        input.btn-enviar {
             background-color: @sky;
             font-family: 'Avenir';
             color: white;
@@ -706,58 +706,59 @@ table.variations {
             font-weight: 600;
             font-style: normal;
             border: 0;
-            padding: 8px 40px; 
+            padding: 8px 40px;
         }
     }
 
-    /* ==========================================================================
-          Austes de la tienda
-       ========================================================================== */
-    @size-texto: 16px;
-    
-    .woodmart-hover-standard .btn-add,
-    .search-by-category .input-dropdown-inner>a{
-    display: none;
-    }
 
-    .product-template-default {
-        ul {
-            li {
-                font-size: @size-texto;
-                color: #000;
-            }
-        }
-        p {
-            font-size: @size-texto;
-            color: #000;
-        }
-        
-        .btn-enviar{
-            background: none;
-            color: @sky;
-            font-family: 'Notera';
-            font-size: 60px;
-            float: right;   
-            text-transform: capitalize;
-            border-bottom: 2px solid @sky;
-            line-height: 0.9;
-            padding: 0;
-            margin: 0 0 40px;
-            transition: all 0.3s ease-in-out;
-            &:hover{
-                background: none !important;
-                color: @blue;
-                box-shadow: none !important;
-                border-bottom: 2px solid @blue;
-            }
-        }
-    }
-    
-    .tabs-layout-tabs .tabs {
-        background: @blue;
-    }
-    
+
     @import "responsive";
 
 
+}
+
+/* ==========================================================================
+   Ajustes de la tienda
+   ========================================================================== */
+
+@size-texto: 16px;
+
+.woodmart-hover-standard .btn-add,
+.search-by-category .input-dropdown-inner > a,
+.search-by-category {
+    display: none;
+}
+
+.product-template-default {
+    ul {
+        li {
+            font-size: @size-texto;
+            color: #000;
+        }
+    }
+    p {
+        font-size: @size-texto;
+        color: #000;
+    }
+
+    .btn-enviar {
+        background: @sky;
+        color: #fff;
+        float: right;
+        border-bottom: 2px solid @sky;
+        line-height: 0.9;
+        padding: 10px 20px;
+        margin: 0 0 40px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background: @blue;
+            color: #fff;
+            box-shadow: none !important;
+            border-bottom: 2px solid @blue;
+        }
+    }
+}
+
+.tabs-layout-tabs .tabs {
+    background: @gray;
 }

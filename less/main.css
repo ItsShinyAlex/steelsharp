@@ -93,11 +93,6 @@ table.variations td {
   width: 0% !important;
   display: none !important;
 }
-#shiny-home {
-  /* ==========================================================================
-          Austes de la tienda
-       ========================================================================== */
-}
 #shiny-home .mov {
   display: none;
 }
@@ -545,7 +540,6 @@ table.variations td {
   border: 0;
   padding: 8px 40px;
 }
-<<<<<<< HEAD
 #shiny-home #contacto input.btn-enviar {
   background-color: #0093ca;
   font-family: 'Avenir';
@@ -555,41 +549,6 @@ table.variations td {
   font-style: normal;
   border: 0;
   padding: 8px 40px;
-=======
-#shiny-home .woodmart-hover-standard .btn-add,
-#shiny-home .search-by-category .input-dropdown-inner > a {
-  display: none;
->>>>>>> d6c29d145a8ac016c59b200a90942c2e9d701810
-}
-#shiny-home .product-template-default ul li {
-  font-size: 16px;
-  color: #000;
-}
-#shiny-home .product-template-default p {
-  font-size: 16px;
-  color: #000;
-}
-#shiny-home .product-template-default .btn-enviar {
-  background: none;
-  color: #0093ca;
-  font-family: 'Notera';
-  font-size: 60px;
-  float: right;
-  text-transform: capitalize;
-  border-bottom: 2px solid #0093ca;
-  line-height: 0.9;
-  padding: 0;
-  margin: 0 0 40px;
-  transition: all 0.3s ease-in-out;
-}
-#shiny-home .product-template-default .btn-enviar:hover {
-  background: none !important;
-  color: #0294ca;
-  box-shadow: none !important;
-  border-bottom: 2px solid #0294ca;
-}
-#shiny-home .tabs-layout-tabs .tabs {
-  background: #0294ca;
 }
 @media screen and (max-width: 1225px) {
   #shiny-home #patrimonio {
@@ -935,4 +894,39 @@ table.variations td {
     border: 0;
     padding: 6px 113px;
   }
+}
+/* ==========================================================================
+   Ajustes de la tienda
+   ========================================================================== */
+.woodmart-hover-standard .btn-add,
+.search-by-category .input-dropdown-inner > a,
+.search-by-category {
+  display: none;
+}
+.product-template-default ul li {
+  font-size: 16px;
+  color: #000;
+}
+.product-template-default p {
+  font-size: 16px;
+  color: #000;
+}
+.product-template-default .btn-enviar {
+  background: #0093ca;
+  color: #fff;
+  float: right;
+  border-bottom: 2px solid #0093ca;
+  line-height: 0.9;
+  padding: 10px 20px;
+  margin: 0 0 40px;
+  transition: all 0.3s ease-in-out;
+}
+.product-template-default .btn-enviar:hover {
+  background: #0294ca;
+  color: #fff;
+  box-shadow: none !important;
+  border-bottom: 2px solid #0294ca;
+}
+.tabs-layout-tabs .tabs {
+  background: #ebebeb;
 }

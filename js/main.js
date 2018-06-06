@@ -117,7 +117,7 @@ window.sr = ScrollReveal({ reset: false });
 jQuery(function( $ ){
 
 	// Smooth scrolling when clicking on a hash link
-	$('a[href^="#"').on('click',function (e) {
+	$('.menu a').on('click',function (e) {
 		e.preventDefault();
 
 		var target = this.hash;
