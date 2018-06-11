@@ -17,6 +17,15 @@
   font-weight: bold;
   font-style: normal;
 }
+.category-icon {
+  max-height: 90px;
+}
+.category-name {
+  font-size: 19px;
+}
+.category-products-count {
+  font-size: 16px;
+}
 .home .container {
   width: 100%;
 }
@@ -377,7 +386,7 @@ table.variations td {
   padding: 50px 0px;
 }
 #shiny-home #soluciones {
-  padding-bottom: 250px;
+  padding-bottom: 0px;
   background: url(../img/home/line-blue-addonToP-border.png) 134% 23% no-repeat;
   left: 500px;
 }
@@ -499,24 +508,27 @@ table.variations td {
 #shiny-home #contacto #face {
   padding-top: 0;
   margin-top: 0;
-  padding-left: 15%;
+  padding-left: 5%;
   height: 90px;
   background-color: #0093ca;
-  width: 50%;
-}
-#shiny-home #contacto #face img {
-  width: 40%;
+  width: 55%;
 }
 #shiny-home #contacto #face .col {
   margin: 0;
   padding: 0;
-  width: 45%;
+  width: 32%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 #shiny-home #contacto #face .col .white {
   font-size: 30px;
+}
+#shiny-home #contacto #face #face-logo {
+  width: 20%;
+}
+#shiny-home #contacto #face #face-logo img {
+  width: 60%;
 }
 #shiny-home #contacto .pad-left {
   padding-left: 8%;
@@ -573,6 +585,9 @@ table.variations td {
   }
 }
 @media screen and (max-width: 650px) {
+  #shiny-home .mov-hid {
+    display: none !important;
+  }
   #shiny-home #home-banner-mov .center {
     align-items: center;
     text-align: center;

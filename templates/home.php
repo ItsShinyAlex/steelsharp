@@ -33,7 +33,7 @@
                 , hechos con los mejores 
                 <span  class="navy">materiales certificados</span>
                 y la
-                <span  class="navy">mayor tecnología</span>
+                <span  class="navy">mayor tecnología.</span>
             </p>
             <p>
                 Ofrecemos productos 
@@ -262,11 +262,14 @@
     </div>
     <div class="flex">
         <div id="face" class="col flex">
-           <div class="col">
+           <div class="col mov-hid">
                <p class="white heavy">Síguenos en</p>
            </div>
-           <div class="col">
+           <div id="face-logo" class="col center">
                <a href="https://www.facebook.com/Steelsharp-Seguridad-368465093644569/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/10.svg" alt="Facebook"></a>
+           </div>
+           <div class="col">
+               <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" target="_blank"><p class="white">Steelsharp Seguridad</p></a>
            </div>
         </div>
         <div class="col"></div>

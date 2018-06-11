@@ -30,6 +30,18 @@
 @brown-black: #363636;
 @sky: #0093ca;
 
+.category-icon{
+    max-height: 90px;
+}
+
+.category-name {
+    font-size: 19px;
+}
+
+.category-products-count {
+    font-size: 16px;
+}
+
 .home .container {
     width: 100%;
 }
@@ -145,6 +157,8 @@ table.variations {
     .mov {
         display: none;
     }
+    
+
 
     b {
         font-weight: 600;
@@ -495,7 +509,7 @@ table.variations {
     }
 
     #soluciones {
-        padding-bottom: 250px;
+        padding-bottom: 0px;
         background: url(../img/home/line-blue-addonToP-border.png) 134% 23% no-repeat;
         left: 500px;
 
@@ -650,23 +664,28 @@ table.variations {
         #face {
             padding-top: 0;
             margin-top: 0;
-            padding-left: 15%;
+            padding-left: 5%;
             height: 90px;
             background-color: @sky;
-            width: 50%;
-            img {
-                width: 40%;
-            }
+            width: 55%;
+            
             .col {
                 margin: 0;
                 padding: 0;
-                width: 45%;
+                width: 32%;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 .white {
                     font-size: 30px;
                 }
+            }
+            #face-logo{
+                width: 20%;
+                img {
+                    width: 60%;
+                }
+                
             }
         }
 
