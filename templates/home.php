@@ -269,7 +269,7 @@
                <a href="https://www.facebook.com/Steelsharp-Seguridad-368465093644569/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/10.svg" alt="Facebook"></a>
            </div>
            <div class="col">
-               <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" target="_blank"><p class="white">Steelsharp Seguridad</p></a>
+               <a href="https://www.facebook.com/steelsharpseguridad/" target="_blank"><p class="white">Steelsharp Seguridad</p></a>
            </div>
         </div>
         <div class="col"></div>

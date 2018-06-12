@@ -17,14 +17,14 @@
   font-weight: bold;
   font-style: normal;
 }
-.category-icon {
-  max-height: 90px;
+.category-nav-link .category-icon {
+  max-height: 90px !important;
 }
-.category-name {
-  font-size: 19px;
+.category-nav-link .category-name {
+  font-size: 19px !important;
 }
-.category-products-count {
-  font-size: 16px;
+.category-nav-link .category-products-count {
+  font-size: 16px !important;
 }
 .home .container {
   width: 100%;
